@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -02 -S main.c
