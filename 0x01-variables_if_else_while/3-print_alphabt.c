@@ -14,7 +14,7 @@ int main(void)
 
 		{
 
-		putchar(az)
+		putchar(az);
 
 		}
 	}
