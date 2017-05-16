@@ -1,19 +1,16 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
+ * print_alphabet - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-	int i = 0;
-	char s[] = "abcdefghijklmnopqrstuvwxyz\n";
+	char az;
 
-	while (s[i])
+	for (az = 'a'; az <= 'z'; az++)
 	{
-		_putchar (s[i]);
-		i++;
+		_putchar(az);
 	}
-
-	return (0);
+		_putchar('\n');
 }
