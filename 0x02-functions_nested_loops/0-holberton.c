@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i = 0;
-	char s[]="Holberton\n";
+	char s[] = "Holberton\n";
 
 	while (s[i])
 	{
