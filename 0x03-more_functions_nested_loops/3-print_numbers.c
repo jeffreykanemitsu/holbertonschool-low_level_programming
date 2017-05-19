@@ -2,15 +2,15 @@
 /**
  * print_numbers - check the code for Holberton School students.
  *
- *
+ * Return: void.
  */
 void print_numbers(void)
 {
-	int c;
+	int y;
 
-	for (c = '0'; c <= '9'; c++)
+	for (y = '0'; y <= '9'; y++)
 	{
-		_putchar(c);
+		_putchar(y);
 	}
 	_putchar('\n');
 }
