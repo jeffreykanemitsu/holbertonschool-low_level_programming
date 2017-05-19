@@ -7,15 +7,15 @@
  */
 int _isupper(int c)
 {
-	int result;
+	int x;
 
 	if (c >= 'A' && c <= 'Z')
 	{
-		result = 1;
+		x = 1;
 	}
 	else
 	{
-		result = 0;
+		x = 0;
 	}
-	return (result);
+	return (x);
 }

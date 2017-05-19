@@ -6,15 +6,15 @@
  */
 int _isdigit(int c)
 {
-	int result;
+	int x;
 
 	if (c >= '0' && c <= '9')
 	{
-		result = 1;
+		x = 1;
 	}
 	else
 	{
-		result = 0;
+		x = 0;
 	}
-	return (result);
+	return (x);
 }
