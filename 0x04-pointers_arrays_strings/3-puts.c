@@ -1,7 +1,6 @@
 #include "holberton.h"
 /**
  * _puts - prints the string
- * @str: string being printed
  *
  * Return - void
  */
