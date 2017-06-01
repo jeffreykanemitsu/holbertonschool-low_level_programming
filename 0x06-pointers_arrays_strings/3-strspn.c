@@ -9,21 +9,22 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int a = 0;
+	int a;
 	int b;
 
-	while (s[a] != '\0')
+	for (a = 0; s[a]; a++)
 	{
-		b = 0;
-		while (accept[b] != '\0' && s[a] != accept[b])
+		for (b = 0; accept[b]; b++)
 		{
-			b++;
+			if (acceptp[b] == s[a])
+			{
+				break;
+			}
 		}
-		if (accept[b] == '\0')
+		if (!accept[b])
 		{
-			return (a);
+			break;
 		}
-		a++;
 	}
-	return (b);
+	return (a);
 }
