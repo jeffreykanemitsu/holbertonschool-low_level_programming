@@ -1,3 +1,4 @@
+#include "holberton.h"
 /**
  * NaN - natural number
  * @a: variable being tested
@@ -12,7 +13,7 @@ int NaN(int a, int b)
 	{
 		return (-1);
 	}
-	else if ( c == a)
+	else if (c == a)
 	{
 		return (b);
 	}
@@ -24,7 +25,7 @@ int NaN(int a, int b)
 
 /**
  * _sqrt_recursion - returns the natural square root of a number
- * @n: natural square root
+ * @n: variable being tested
  * Return: square root or -1
  */
 int _sqrt_recursion(int n)
