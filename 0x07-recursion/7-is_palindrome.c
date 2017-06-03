@@ -12,6 +12,7 @@ int _strlen_recursion(char *s)
 	}
 	else
 	{
+		s++;
 		return (_strlen_recursion(s) + 1);
 	}
 }
@@ -24,7 +25,7 @@ int _strlen_recursion(char *s)
  *
  * Return: 1 if palindrome, 0 otherwise
  */
-int _pali(unsigned int start, unsigned int end, char *s)
+int _pali(int start, int end, char *s)
 {
 	if (s[start] >= s[end])
 	{
