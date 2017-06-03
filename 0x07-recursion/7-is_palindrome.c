@@ -27,7 +27,7 @@ int _strlen_recursion(char *s)
  */
 int _pali(int start, int end, char *s)
 {
-	if (s[start] >= s[end])
+	if (start >= end)
 	{
 		return (1);
 	}
