@@ -23,7 +23,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		length1++;
 	}
-	for (y = 0; s2[y]; y++)
+	for (x = 0; s2[x]; x++)
 	{
 		length2++;
 	}
@@ -41,6 +41,5 @@ char *str_concat(char *s1, char *s2)
 	{
 		concat[y] = s2[x];
 	}
-	concat[y] = '\0';
 	return (concat);
 }
