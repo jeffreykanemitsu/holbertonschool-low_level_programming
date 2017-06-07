@@ -9,7 +9,7 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *concat = '\0';
+	char *concat;
 	int x;
 	int y;
 	int length1 = 0;
@@ -17,7 +17,8 @@ char *str_concat(char *s1, char *s2)
 
 	if (s1 == NULL || s2 == NULL)
 	{
-		return (concat);
+		s1 = "";
+		s2 = "";
 	}
 	for (x = 0; s1[x]; x++)
 	{
