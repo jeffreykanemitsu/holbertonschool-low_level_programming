@@ -9,25 +9,21 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	char *concat
+	char *concat = '\0';
 	int x;
-	int y = x;
-	int length1;
-	int length2;
+	int y;
+	int length1 = 0;
+	int length2 = 0;
 
-	if (s1 == NULL)
+	if (s1 == NULL || s2 == NULL)
 	{
-		s1 == "";
-	}
-	if (s2 == NULL)
-	{
-		s2 == "";
+		return (concat);
 	}
 	for (x = 0; s1[x]; x++)
 	{
 		length1++;
 	}
-	for (x = 0; s2[x]; x++)
+	for (y = 0; s2[y]; y++)
 	{
 		length2++;
 	}
@@ -40,9 +36,11 @@ char *str_concat(char *s1, char *s2)
 	{
 		concat[x] = s1[x];
 	}
-	for (x = 0; x < length2; x++)
+	y = x;
+	for (x = 0; x < length2; x++, y++)
 	{
 		concat[y] = s2[x];
 	}
+	concat[y] = '\0';
 	return (concat);
 }
