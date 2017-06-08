@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * malloc_checked - allocates memory using malloc
  * @b: amount allocated
@@ -6,7 +8,7 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	char *a;
+	int *a;
 
 	a = malloc(b);
 	if (a == NULL)
