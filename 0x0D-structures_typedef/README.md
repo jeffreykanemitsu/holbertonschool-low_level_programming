@@ -1,4 +1,4 @@
-0x0D. C - Structures, typedef
+#0x0D. C - Structures, typedef
 
 0. define a new type struct dog with the following elements: char name, float age, and char owner.
 1. function initializes a variable type struct dog
