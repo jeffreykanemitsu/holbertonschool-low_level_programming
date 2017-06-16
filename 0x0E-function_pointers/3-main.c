@@ -8,7 +8,7 @@
  *
  * Return: 0
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int x;
 	int y;
@@ -27,7 +27,7 @@ int main (int argc, char *argv[])
 		exit(99);
 	}
 	x = atoi(argv[1]);
-	y = atoi(argv[2]);
+	y = atoi(argv[3]);
 
 	printf("%d\n", fp(x, y));
 
