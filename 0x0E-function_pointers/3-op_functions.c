@@ -7,7 +7,7 @@
  *
  * Return: sum of a and b
  */
-int op_add(int a, int b);
+int op_add(int a, int b)
 {
 	return (a + b);
 }
@@ -19,7 +19,7 @@ int op_add(int a, int b);
  *
  * Return: difference of a and b
  */
-int op_sub(int a, int b);
+int op_sub(int a, int b)
 {
 	return (a - b);
 }
@@ -31,7 +31,7 @@ int op_sub(int a, int b);
  *
  * Return: product of a times b
  */
-int op_mul(int a, int b);
+int op_mul(int a, int b)
 {
 	return (a * b);
 }
@@ -43,7 +43,7 @@ int op_mul(int a, int b);
  *
  * Return: result of division of a by b
  */
-int op_div(int a, int b);
+int op_div(int a, int b)
 {
 	if (b == 0)
 	{
@@ -60,7 +60,7 @@ int op_div(int a, int b);
  *
  * Return: returns remainder of the division of a by b
  */
-int op_mod(int a, int b);
+int op_mod(int a, int b)
 {
 	if (b == 0)
 	{
