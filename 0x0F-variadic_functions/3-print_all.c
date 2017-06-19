@@ -9,7 +9,7 @@
  */
 void _printchar (va_list list)
 {
-	printf("%c", va_arg(va_list, char));
+	printf("%c", va_arg(list, int));
 }
 
 /**
@@ -19,7 +19,7 @@ void _printchar (va_list list)
  */
 void _printint (va_list list)
 {
-	printf("%i", va_arg(va_list, int));
+	printf("%i", va_arg(list, int));
 }
 
 /**
@@ -29,7 +29,7 @@ void _printint (va_list list)
  */
 void _printfloat (va_list list)
 {
-	printf("%f", va_arg(va_list, int));
+	printf("%f", va_arg(list, double));
 }
 
 /** 
@@ -39,10 +39,13 @@ void _printfloat (va_list list)
  */
 void _printstring (va_list list)
 {
-	x = va_arg(va_list, char *);
+	char *x;
+
+	x = va_arg(list, char *);
 	if (x == NULL)
 	{
 		printf("(nil)");
+		return;
 	}
 	printf("%s", x);
 }
@@ -50,7 +53,7 @@ void _printstring (va_list list)
 void print_all(const char * const format, ...)
 {
 	int a = 0;
-	int b = 0;
+	int b;
 	char *separator = ", ";
 	va_list list;
 
@@ -63,12 +66,14 @@ void print_all(const char * const format, ...)
 	};
 	
 	va_start(list, format);
-	while (format[a] != NULL && format[a] != '\0')
+	while (format != NULL && format[a] != '\0')
 	{
+		b = 0;
 		while (ops[b].f)
 		{
 			if (ops[b].op[0] == format[a])
 			{
+				ops[b].f(list);
 				printf("%s", separator);
 			}
 		}	b++;
