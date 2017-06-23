@@ -6,11 +6,11 @@
  */
 size_t print_list(const list_t *h)
 {
-	int x;
+	unsigned int x;
 
 	for (x = 0; h != NULL; x++)
 	{
-		printf("[%i] %s\n", h->len, h->str);
+		printf("[%u] %s\n", h->len, h->str);
 		h = h->next;
 	}
 	return (x);
