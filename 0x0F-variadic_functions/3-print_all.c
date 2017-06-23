@@ -1,6 +1,4 @@
 #include "variadic_functions.h"
-#include <stdlib.h>
-#include <stdio.h>
 
 /**
  * _printchar - prints character
@@ -52,7 +50,7 @@ void _printstring (va_list list)
 
 void print_all(const char * const format, ...)
 {
-	int a = 0;
+	int a;
 	int b;
 	char *separator = ", ";
 	va_list list;
@@ -62,19 +60,20 @@ void print_all(const char * const format, ...)
 		{"i", _printint},
 		{"f", _printfloat},
 		{"s", _printstring},
-		{NULL, NULL},
+		{NULL, NULL}
 	};
 	
 	va_start(list, format);
+	a = 0;
 	while (format != NULL && format[a] != '\0')
 	{
 		b = 0;
-		while (ops[b].f)
+		while (ops[b].op != NULL)
 		{
 			if (ops[b].op[0] == format[a])
 			{
-				ops[b].f(list);
 				printf("%s", separator);
+				ops[b].f(list);
 			}
 		}	b++;
 		a++;
