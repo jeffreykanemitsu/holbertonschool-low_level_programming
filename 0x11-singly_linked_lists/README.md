@@ -8,7 +8,6 @@
 	* [Author](#Author)	
 	* [Description](#description)
 	* [Objectives](#objectives)
-	* [Installation](#installation)
 	* [Compilation](#compilation)
 	* [Requirements](#requirements)
 	* [Tasks](#tasks)
@@ -29,6 +28,10 @@ A linked list is an ordered set of data elements, each containing a link to its 
 ### Objectives ###
 * Understand when and why we use linked lists vs arrays.
 * Understand how to build and use linked lists
+
+### Compilation ###
+* Your programs and functions will be compiled with `gcc 4.8.4` using the flags
+`-Wall` `-Werror` `-Wextra` and `-pedantic`
 
 ### Requirements ###
 * You are not allowed to use global variables
