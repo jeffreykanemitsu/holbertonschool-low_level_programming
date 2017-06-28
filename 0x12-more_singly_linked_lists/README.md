@@ -8,7 +8,6 @@
 	* [Author](#Author)	
 	* [Description](#description)
 	* [Objectives](#objectives)
-	* [Installation](#installation)
 	* [Compilation](#compilation)
 	* [Requirements](#requirements)
 	* [Tasks](#tasks)
@@ -16,13 +15,13 @@
 	  * [Mandatory 1](#mandatory-1)
 	  * [Mandatory 2](#mandatory-2)
 	  * [Mandatory 3](#mandatory-3)
-          * [Mandatory 4](#mandatory-4)
-          * [Mandatory 5](#mandatory-5)
-          * [Mandatory 6](#mandatory-6)
-          * [Mandatory 7](#mandatory-7)
-          * [Mandatory 8](#mandatory-8)
-          * [Mandatory 9](#mandatory-9)
-          * [Mandatory 10](#mandatory-10)
+	  * [Mandatory 4](#mandatory-4)
+	  * [Mandatory 5](#mandatory-5)
+	  * [Mandatory 6](#mandatory-6)
+	  * [Mandatory 7](#mandatory-7)
+	  * [Mandatory 8](#mandatory-8)
+	  * [Mandatory 9](#mandatory-9)
+	  * [Mandatory 10](#mandatory-10)
 
 ### Author ###
 * Jeffrey Kanemitsu
