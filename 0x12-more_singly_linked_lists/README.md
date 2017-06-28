@@ -42,6 +42,7 @@ A linked list is an ordered set of data elements, each containing a link to its 
 * No more than 5 functions per file
 * The only C standard library functions allowed are malloc, free, and exit. Any use of functions like printf, puts, calloc, realloc, etc... is forbidden.
 * You are allowed to use `_putchar`.
+* The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `lists.h`
 * All your header files should be include guarded
 * Use data structure provided for this project:
 ```C
