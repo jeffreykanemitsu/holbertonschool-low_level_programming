@@ -90,7 +90,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	{
 		return (NULL);
 	}
-	else if (idx == 0 and *head != NULL)
+	else if (idx == 0 and head != NULL)
 	{
 		new_node = add_nodeint(head, n);
 	}
@@ -107,7 +107,5 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	pnode = get_nodeint_at_index(*head, idx - 1);
 	new_node->next = pnode->next;
 	new_node->n = n;
-	pnode->next = new_node;
 	return (new_node);
-
 }
