@@ -81,12 +81,12 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	listint_t *pnode;
 	size_t list_len;
 
-	list_len = listint_len(*head);
 	if (head == NULL)
 	{
 		return (NULL);
 	}
-	else if (list_len < idx)
+	list_len = listint_len(*head);
+	if (list_len < idx)
 	{
 		return (NULL);
 	}
