@@ -1,5 +1,20 @@
 #include "lists.h"
 /**
+ * listint_len - number of elements in a linked listint_t list
+ * @h: points to head of list
+ * Return: length of the list
+ */
+size_t listint_len(const listint_t *h)
+{
+	size_t nodes;
+
+	for (nodes = 0; h != NULL; nodes++)
+	{
+		h = h->next;
+	}
+	return (nodes);
+}
+/**
  * get_nodeint_at_index - returns the nth node of listint_t
  * @head: head of linked list
  * @index: index of the node, starting at 0
@@ -63,27 +78,29 @@ listint_t *add_nodeint(listint_t **head, const int n)
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
 	listint_t *new_node;
-	listint_t *temp;
 	listint_t *pnode;
+	size_t list_len;
 
+	list_len = listint_len(*head);
 	if (head == NULL)
 	{
 		return (NULL);
+	}
+	else if (list_len < idx)
+	{
+		return (NULL);
+	}
+	else if (idx == 0)
+	{
+		new_node = add_nodeint(head, n);
 	}
 	new_node = malloc(sizeof(listint_t));
 	if (new_node == NULL)
 	{
 		return (NULL);
 	}
-	if (idx == 0)
-	{
-		return (NULL);
-	}
 	pnode = get_nodeint_at_index(*head, idx - 1);
-	pnode = new_node->next;
-	temp = pnode->next;
-	pnode->next = new_node;
-	pnode->n = n;
-	new_node = temp;
+	new_node->next = pnode->next;
+	new_node->n = n;
 	return (new_node);
 }
