@@ -27,7 +27,6 @@ size_t read_textfile(const char *filename, size_t letters)
 	fd = open(filename, O_RDONLY);
 	if (fd == -1)
 	{
-		free(buffer);
 		return (0);
 	}
 	rc = read(fd, buffer, letters);
@@ -37,10 +36,11 @@ size_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 	wc = write(STDOUT_FILENO, buffer, rc);
-	if (wc < rc)
+	if (wc != rc)
 	{
 		return (0);
 	}
 	free(buffer);
+	close(fd);
 	return (wc);
 }
