@@ -8,7 +8,9 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int fd, x, file;
+	int fd;
+	size_t x;
+	ssize_t file = 0;
 
 	if (filename == NULL)
 	{
