@@ -3,7 +3,6 @@
 </a>
 </p>
 
-![Holberton](https://img.shields.io/badge/Holberton-Batch_3-red.svg)
 ![gcc](https://img.shields.io/badge/gcc-v4.8.4-lightgrey.svg)
 
 # 0x17. C - Dynamic libraries #
