@@ -3,10 +3,9 @@
 </a>
 </p>
 
-![Holberton](https://img.shields.io/badge/Holberton-Batch_3-red.svg)
 ![gcc](https://img.shields.io/badge/gcc-v4.8.4-lightgrey.svg)
 
-# Title  #
+# Low-level programming & Algorithms #
 
 * [Table of Contents](#table-of-contents)
 	* [Author](#author)
@@ -14,20 +13,7 @@
 	* [Objectives](#objectives)
 	* [Compilation](#compilation)
 	* [Requirements](#requirements)
-	* [Tasks](#tasks)
-	  * [Mandatory 0](#mandatory-0)
-	  * [Mandatory 1](#mandatory-1)
-	  * [Mandatory 2](#mandatory-2)
-	  * [Mandatory 3](#mandatory-3)
-	  * [Mandatory 4](#mandatory-4)
-	  * [Mandatory 5](#mandatory-5)
-	  * [Mandatory 6](#mandatory-6)
-	  * [Mandatory 7](#mandatory-7)
-	  * [Mandatory 8](#mandatory-8)
-	  * [Mandatory 9](#mandatory-9)
-	  * [Mandatory 10](#mandatory-10)
-	  * [Mandatory 11](#mandatory-11)
-	  * [Mandatory 12](#mandatory-12)
+	* [Projects](#projects)
 ### Author ###
 * Jeffrey Kanemitsu
     * [Github](https://github.com/jeffreykanemitsu)
@@ -41,24 +27,30 @@ Understanding concepts of the low-level language.
 </a>
 </p>
 
-### Objectives ###
-
 ### Compilation ###
 Your programs and functions will be compiled with gcc 4.8.4 using the flags -Wall -Werror -Wextra and -pedantic
 
-### Requirements ###
-
-### Tasks ###
-#### Mandatory 0 ####
-#### Mandatory 1 ####
-#### Mandatory 2 ####
-#### Mandatory 3 ####
-#### Mandatory 4 ####
-#### Mandatory 5 ####
-#### Mandatory 6 ####
-#### Mandatory 7 ####
-#### Mandatory 8 ####
-#### Mandatory 9 ####
-#### Mandatory 10 ####
-#### Mandatory 11 ####
-#### Mandatory 12 ####
+### Projects ###
+1.  [0x00-hello_world](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
+2. [0x01-variables_if_else_while](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x01-variables_if_else_while)
+3. [0x02-functions_nested_loops](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x02-functions_nested_loops)
+4. [0x03-more_functions_nested_loops](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x03-more_functions_nested_loops)
+5. [0x04-pointers_arrays_strings](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x04-pointers_arrays_strings)
+6. [0x05-pointers_arrays_strings](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x05-pointers_arrays_strings)
+7. [0x06-pointers_arrays_strings](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x06-pointers_arrays_strings)
+8. [0x07-recursion](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x07-recursion)
+9. [0x08-static_libraries](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x08-static_libraries)
+10. [0x09-argc_argv](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x09-argc_argv)
+11. [0x0A-malloc_free](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x0A-malloc_free)
+12. [0x0B-more_malloc_free](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x0B-more_malloc_free)
+13. [0x0C-preprocessor](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x0C-preprocessor)
+14. [0x0D-structures_typedef](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x0D-structures_typedef)
+15. [0x0E-function_pointers](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x0E-function_pointers)
+16. [0x0F-variadic_functions](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x0F-variadic_functions)
+17. [0x11-singly_linked_lists](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x11-singly_linked_lists)
+18. [0x12-more_singly_linked_lists](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x12-more_singly_linked_lists)
+19. [0x13-bit_manipulation](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x13-bit_manipulation)
+20. [0x14-file_io](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x14-file_io)
+21. [0x15-printf](https://github.com/Hillmonkey/printf)
+22. [0x16-doubly_linked_lists](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x16-doubly_linked_lists)
+23. [0x17-dynamic_libraries](https://github.com/jeffreykanemitsu/holbertonschool-low_level_programming/tree/master/0x17-dynamic_libraries)
