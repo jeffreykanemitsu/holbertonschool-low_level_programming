@@ -10,9 +10,7 @@
 * [Table of Contents](#table-of-contents)
 	* [Author](#author)
 	* [Description](#description)
-	* [Objectives](#objectives)
 	* [Compilation](#compilation)
-	* [Requirements](#requirements)
 	* [Projects](#projects)
 ### Author ###
 * Jeffrey Kanemitsu
